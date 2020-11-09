@@ -2,6 +2,23 @@
 
 ## 画面一覧
 
+## ER図
+
+![](er.dio.svg)
+
+## DBテーブル
+
+### students
+
+| PK/FK | Attribute | Type | Validation |
+| --- | --- | --- | --- |
+| PK | id | int | auto_increment |
+|| student_class | string ||
+|| student_name | string | required:true |
+|| parent_name | string ||
+|| line_id | string ||
+|| enabled | boolean ||
+
 ## 画面遷移図
 
 ## 登録画面
